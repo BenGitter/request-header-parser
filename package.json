@@ -1,0 +1,27 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "Simple API that returns client ip-address, language and operating system",
+  "main": "server.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "ua-parser-js": "^0.7.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenGitter/request-header-parser.git"
+  },
+  "author": "Benjamin van Zwienen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenGitter/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/BenGitter/request-header-parser#readme"
+}
